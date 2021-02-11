@@ -1,0 +1,27 @@
+<div class="home-banner", style = "background-image: url(https://source.unsplash.com/random)">
+  <h1><%= @cocktail.name %></h1>
+</div>
+
+<h2>Details</h2>
+<ul>
+  <% @cocktail.doses.each do |dose| %>
+    <li style = "list-style:none;"> <%= dose.ingredient.name %> - <%= dose.description %> <%= link_to "Remove", dose_path(dose), method: :delete %></li>
+  <% end %>
+</ul>
+
+<%= link_to "Back to list", cocktails_path %>
+<%= link_to "Add ingredient", new_cocktail_dose_path(@cocktail.id) %>
+
+<div class="cards">
+  <div class="card" style="background-image: url(https://source.unsplash.com/random)">
+    Rio
+  </div>
+
+  <div class="card" style="background-image: url(https://source.unsplash.com/random)">
+    Berlin
+  </div>
+
+  <div class="card" style="background-image: url(https://source.unsplash.com/random)">
+    Shanghai
+  </div>
+</div>
