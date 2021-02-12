@@ -28,7 +28,7 @@
 <div class = "main_container">
 <div class="cards">
   <% @cocktails.each do |cocktail| %>
-    <div class="card" style="background-image: url(https://source.unsplash.com/random)">
+    <div class="card" style="background-image: url('<%= cl_image_path cocktail.photo.key %>')">
       <%= link_to cocktail.name.upcase, cocktail_path(cocktail)%>
     </div>
   <% end  %>
