@@ -8,4 +8,8 @@
 
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
-Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "brown sugar")
+Ingredient.create(name: "mint")
+Ingredient.create(name: "rhum")
+Ingredient.create(name: "tonic")
+Ingredient.create(name: "gin")
