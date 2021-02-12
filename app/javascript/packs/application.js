@@ -10,6 +10,12 @@ require("channels")
 
 import 'bootstrap';
 
+const input = document.querySelector("#search_query");
+
+input.addEventListener("keyup", (event) => {
+  console.log("hello")
+});
+
 
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
