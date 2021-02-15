@@ -25,6 +25,7 @@ gem 'jbuilder', '~> 2.7'
 # => Frontend gems
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
+gem 'gon'
 gem 'simple_form'
 
 # Use Active Storage variant
