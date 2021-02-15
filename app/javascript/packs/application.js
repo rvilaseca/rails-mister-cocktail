@@ -23,6 +23,12 @@ input.addEventListener("keyup", (event) => {
   });
 });
 
+// document.querySelectorAll(".card").forEach((card) => {
+//   if (card.dataset.name.c) {
+//     card.style.display = "block"
+//   }
+// })
+
 
       //   <div class="card" style="background-image: url('<%= cl_image_path ${cocktail.photo.key} %>')">
       //   <%= link_to ${cocktail.name}.upcase, cocktail_path(cocktail)%>
